@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body{
+    font-family: 'Open sans', sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-flow: column wrap;
+    
+}
+
+.wrapper{
+    margin-left: 110px;
+    max-width: 1150px;
+    background-color: #ffff;
+    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+}
+
+h1{
+    margin: 0px 0px 30px 50px;
+    font-size: 40pt;   
+}
+
+.main_menu {
+    list-style-type: none;
+    height: 45px;
+    margin: 0px 50px 0px 50px;
+    padding: 0;
+    overflow: hidden;
+    background-image: linear-gradient( #575757, #404040 );
+  }
+
+ .main_menu li {
+    float: left;
+  }
+
+ .main_menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 60px 16px 30px;
+    text-decoration: none;
+  }
+ .main_menu li a:hover {
+    background-color: #404241;
+  }
+
+.sidebar{
+    list-style-type: none;
+    margin: 0;
+    padding: 50px 0px 0px 50px;
+    width: 250px;
+    background-color: #ffff;
+    justify-content: left;
+    
+}
+
+.sidebar li a{
+    display: block;
+    color: #000;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+
+.sidebar li a:hover{
+    background-color: #f9f9f9;
+    padding-left: 24px;
+}
+
+.bicycle_photo{  
+    text-align: center; 
+    margin-top: -250px;
+     padding-bottom: 100px;
+   
+}
+
+.text{   
+   width: 730px;
+   padding-left: 300px;
+   padding-bottom: 60px;
+   align-items: flex-start;
+   font-size: 15px;
+}
+
+  .footer-menu{
+    list-style-type: none;
+    height: 45px;
+    margin: 0px 50px 20px 50px;
+    padding: 0;
+    overflow: hidden;
+    background-color:#e1e1e1;
+  }
+
+  .footer-menu li{
+    float: left;
+  }
+   
+.footer-menu li a{
+    display: block;
+    color: #111;
+    text-align: center;
+    padding: 14px 60px 16px 30px;
+    text-decoration: none;
+}
+
+.footer-menu li a:hover {
+    text-decoration: underline;
+  }
+
+  .all-rights{
+     padding-top: 14px; 
+     padding-left: 130px;
+     
+     
+  }
+  .vert{
+      
+  }
